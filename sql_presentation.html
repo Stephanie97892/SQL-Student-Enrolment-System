@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/sql project presentation/style.css"> 
+    <title>SQL project</title>
+</head>
+<body>
+    
+    <!-- NAV -->
+    <nav>
+        <div class="nav-wrapper #bcaaa4 brown lighten-3">
+            
+            </div>
+        </div>
+    </nav>   
+
+    <!-- Main Content -->
+
+    
+    <div class="container">
+      <h2 >SQL Project</h2>
+      <h4>Student Course Enrolment System </h4> 
+
+      <p class="details"> The objective of this database was to create an enrolement system to manage students, course and enrolments.
+        Operations such as: insert, create, update , stored procedures and CASE staments were used.
+      </p>
+      
+      
+      <!-- 1.1 students -->
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="card">
+            <div class="card-image">
+              <img src="/sql project presentation/assets/student-table.jpg">              
+            </div>
+            <div class="card-content">
+              <span class="card-title text-black">1.1</span>
+              <p>A table  created for students , student Id is the primary key. </p>
+            </div>
+            
+          </div>
+        </div>
+
+         <!-- 1.2-->
+      
+         <div class="col s12 m12">
+          <div class="card">
+            <div class="card-image">
+              <img src="/sql project presentation/assets/studentid_output.png">              
+            </div>
+            <div class="card-content">
+              <span class="card-title text-black">1.2</span>                         
+              <p>Students table created.</p>
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- 2 courses-->  
+        <div class="col s12 m12">
+          <div class="card">
+            <div class="card-image">
+              <img src="/sql project presentation/assets/3_course-table.png">
+              
+            </div>
+            <div class="card-content">
+              <span class="card-title text-black">2.1 </span>                 
+              <p>A table  created for students, course ID is the primary key. </p>
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- 2.2 -->
+        <div class="col s12 m12">
+          <div class="card">
+            <div class="card-image">
+              <img src="/sql project presentation/assets/4_course_table_craeted.png">              
+            </div>
+            <div class="card-content">
+              <span class="card-title text-black">2.2 </span>                 
+              <p>Course table created. </p>
+            </div>            
+          </div>
+        </div>
+
+        <!-- 3 enrolement-->
+      
+        <div class="col s12 m12">
+          <div class="card">
+            <div class="card-image">
+              <img src="/sql project presentation/assets/5_createing_enrolment.png">              
+            </div>
+            <div class="card-content">
+              <span class="card-title text-black">3.1 </span>                 
+              <p>A table created for enrolment , enrolment ID is the primary key. Student ID and Course ID are foreign keys.</p>
+            </div>            
+          </div>
+        </div>
+      
+
+     
+        <div class="col s12 m12">
+          <div class="card">
+            <div class="card-image">
+              <img src="/sql project presentation/assets/6_enrolement_create.png">              
+            </div>
+            <div class="card-content">
+              <span class="card-title text-black">3.2</span>     
+              <p>Enrolment table created. </p>            
+            </div>            
+          </div>
+        </div>
+     
+        <!-- 4 Inserting data-->
+     
+        <div class="col s12 m12">
+          <div class="card">
+            <div class="card-image">
+              <img src="/sql project presentation/assets/7_insert_sample_students.png">              
+            </div>
+            <div class="card-content">
+              <span class="card-title text-black">4.1</span>     
+              <p>Sample data inserted into students table. </p>            
+            </div>            
+          </div>
+        </div>
+     
+
+   
+        <div class="col s12 m12">
+          <div class="card">
+            <div class="card-image">
+              <img src="/sql project presentation/assets/8_insert_sample_courses.png">              
+            </div>
+            <div class="card-content">
+              <span class="card-title text-black">4.2</span>     
+              <p>Sample data inserted into courses table. </p>            
+            </div>            
+          </div>
+        </div>
+     
+
+   
+        <div class="col s12 m12">
+          <div class="card">
+            <div class="card-image">
+              <img src="/sql project presentation/assets/9_insert_sample_enrolment.png">              
+            </div>
+            <div class="card-content">
+              <span class="card-title text-black">4.3</span>     
+              <p>Sample data inserted into enrolment table.</p>            
+            </div>            
+          </div>
+        </div>
+    
+
+        <!-- 5 -->
+        
+          <div class="col s12 m12">
+            <div class="card">
+              <div class="card-image">
+                <img src="/sql project presentation/assets/10_queries_to list all.png">              
+              </div>
+              <div class="card-content">
+                <span class="card-title text-black">5.1</span>     
+                <p>Queries to list all data from students, courses and enrolements table. </p>            
+              </div>            
+            </div>
+          </div>
+      
+
+         <!-- 6 -->
+      
+          <div class="col s12 m12">
+            <div class="card">
+              <div class="card-image">
+                <img src="/sql project presentation/assets/11_Update_on_enrolment.png">              
+              </div>
+              <div class="card-content">
+                <span class="card-title text-black">6.</span>     
+                <p>Updating students grade for a course.</p>            
+              </div>            
+            </div>
+          </div>
+    
+
+         <!-- 7 -->        
+          <div class="col s12 m12">
+            <div class="card">
+              <div class="card-image">
+                <img src="/sql project presentation/assets/12_create_view_show_grades.png">              
+              </div>
+              <div class="card-content">
+                <span class="card-title text-black">7.1</span>     
+                <p> A view to show students' courses and their grades.</p>            
+              </div>            
+            </div>
+          </div>
+       
+        
+       
+          <div class="col s12 m12">
+            <div class="card">
+              <div class="card-image">
+                <img src="/sql project presentation/assets/13_result_of_view_grades.png" class="sql_img">              
+              </div>
+              <div class="card-content">
+                <span class="card-title text-black">7.2</span>     
+                <p>View sucessfully created of courses and grades.</p>            
+              </div>            
+            </div>
+          </div>
+      
+
+        <!-- 8 -->       
+          <div class="col s12 m12">
+            <div class="card">
+              <div class="card-image">
+                <img src="/sql project presentation/assets/14_create_procedure_to_enrol.png" class="sql_img">              
+              </div>
+              <div class="card-content">
+                <span class="card-title text-black">8.1</span>     
+                <p>A stored procedure to enrol students in a course and handle all related updates. </p>            
+              </div>            
+            </div>
+          </div>
+      
+
+        
+          <div class="col s12 m12">
+            <div class="card">
+              <div class="card-image">
+                <img src="/sql project presentation/assets/15_pocedure_works.png" class="sql_img">              
+              </div>
+              <div class="card-content">
+                <span class="card-title text-black">8.2</span>     
+                <p>Procedure sucessfully created. </p>            
+              </div>            
+            </div>
+          </div>
+     
+
+       
+
+      
+          <div class="col s12 m12">
+            <div class="card">
+              <div class="card-image">
+                <img src="/sql project presentation/assets/procedure_works.jpg" class="sql_img">              
+              </div>
+              <div class="card-content">
+                <span class="card-title text-black">8.3</span>     
+                <p>Testing the procedure, data added to student table.</p>            
+              </div>            
+            </div>
+          </div>
+       
+
+   
+          <div class="col s12 m12">
+            <div class="card">
+              <div class="card-image">
+                <img src="/sql project presentation/assets/18_procedure_result.png" class="sql_img">              
+              </div>
+              <div class="card-content">
+                <span class="card-title text-black">8.4</span>     
+                <p>Testing the procedure, data added to enrolment table. </p>            
+              </div>            
+            </div>
+          </div>
+     
+
+        <!-- 9 -->
+    
+          <div class="col s12 m12">
+            <div class="card">
+              <div class="card-image">
+                <img src="/sql project presentation/assets/19_Case_statement_grades.png" class="sql_img">              
+              </div>
+              <div class="card-content">
+                <span class="card-title text-black">9.1</span>     
+                <p>Creation of a CASE statement to categorise students based on their grades. </p>            
+              </div>            
+            </div>
+          </div>
+   
+
+      
+          <div class="col s12 m12">
+            <div class="card">
+              <div class="card-image">
+                <img src="/sql project presentation/assets/20_sucessful_procedure_grades.png" class="sql_img">              
+              </div>
+              <div class="card-content">
+                <span class="card-title text-black">9.2</span>     
+                <p>Case statement working correctly. </p>            
+              </div>            
+            </div>
+          </div>
+   
+
+
+
+      </div>
+      <!-- END OF ROW   -->
+
+     
+      <br>
+      <br>
+      <br>
+  </div>   
+
+   
+    <!-- Footer -->
+    <footer class="page-footer brown lighten-3">
+        <div class="container">
+            <div class="">
+                <div class="">
+                    <p id="designedby">© 2024 | Designed & coded by Stephanie Davis</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/project_new/script.js"></script>
+</body>
+</html>
